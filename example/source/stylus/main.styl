@@ -1,0 +1,84 @@
+fs = 14px
+kachelnD = 660px
+
+coolBackground(color1 = #ECEDDC, color2 = #66D9EF)
+  background: 
+  linear-gradient(135deg, color1 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, color1 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, color1 25%, transparent 25%),
+  linear-gradient(45deg, color1 25%, transparent 25%); 
+  background-size: 100px 100px;
+  background-color: color2;
+
+body
+  margin: 0
+  padding: 0
+  font: fs Arial, sans-serif
+  coolBackground(#fff, #ECEDDC)
+
+  .gettheshitdone
+    text-decoration: none
+    color: #fff
+  .gettheshitdone:hover
+    text-decoration: underline
+
+  h1
+    margin: 0
+    padding: 0
+    padding: 10px 
+    font-size: 7em
+  h1.getthedone
+    font-family: "adelle";
+  h1.shit
+    font-family: "uppercut-angle";
+
+  .top
+    width: 100%
+    border-bottom: 1px solid #fff
+    coolBackground()
+    
+  .lower
+    font-weight: 400
+    font-size: 24px
+    font-family: "adelle";
+    padding-top: 10px
+    ul
+      margin: 0
+    width: 100%
+    p
+      padding: 20px
+      background-color: rgba(0,0,0,0.6)
+      color: #fff
+      margin: 10px
+      code
+        color: #66D9EF
+
+  .kacheln
+    display: block
+    width: kachelnD
+    height: kachelnD*0.5
+    text-align: center
+    vertical-align: middle
+    .big
+      color: #fff
+      display: block
+      float: left
+      background: #333
+      width: kachelnD*0.5
+      height: kachelnD*0.5
+    .smalls
+      display: block
+      float: left
+      width: (kachelnD*0.5)
+      .small
+        color: #66D9EF
+        display: block
+        width: (kachelnD*0.5)
+        height: (kachelnD*0.5*0.8)
+        background: #f2f2f2
+        font-size: 1.2em
+      .btm
+        color: #333
+        height: (kachelnD*0.5*0.2)
+        background: #66D9EF
+        font-size: 0.4em

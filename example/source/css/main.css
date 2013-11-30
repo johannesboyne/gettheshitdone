@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px Arial, sans-serif;
+  background: linear-gradient(135deg, #fff 25%, transparent 25%) -50px 0, linear-gradient(225deg, #fff 25%, transparent 25%) -50px 0, linear-gradient(315deg, #fff 25%, transparent 25%), linear-gradient(45deg, #fff 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #eceddc;
+}
+body .gettheshitdone {
+  text-decoration: none;
+  color: #fff;
+}
+body .gettheshitdone:hover {
+  text-decoration: underline;
+}
+body h1 {
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  font-size: 7em;
+}
+body h1.getthedone {
+  font-family: "adelle";
+}
+body h1.shit {
+  font-family: "uppercut-angle";
+}
+body .top {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(225deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(315deg, #eceddc 25%, transparent 25%), linear-gradient(45deg, #eceddc 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #66d9ef;
+}
+body .lower {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "adelle";
+  padding-top: 10px;
+  width: 100%;
+}
+body .lower ul {
+  margin: 0;
+}
+body .lower p {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 10px;
+}
+body .lower p code {
+  color: #66d9ef;
+}
+body .kacheln {
+  display: block;
+  width: 660px;
+  height: 330px;
+  text-align: center;
+  vertical-align: middle;
+}
+body .kacheln .big {
+  color: #fff;
+  display: block;
+  float: left;
+  background: #333;
+  width: 330px;
+  height: 330px;
+}
+body .kacheln .smalls {
+  display: block;
+  float: left;
+  width: 330px;
+}
+body .kacheln .smalls .small {
+  color: #66d9ef;
+  display: block;
+  width: 330px;
+  height: 264px;
+  background: #f2f2f2;
+  font-size: 1.2em;
+}
+body .kacheln .smalls .btm {
+  color: #333;
+  height: 66px;
+  background: #66d9ef;
+  font-size: 0.4em;
+}

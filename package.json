@@ -1,0 +1,23 @@
+{
+  "name": "gettheshitdone",
+  "version": "0.0.1",
+  "description": "A simple website creating tool, package, framework whatever.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gettheshitdone": "bin/cmd.js"
+  },
+  "author": "Johannes Boyne <johannes@boyne.de>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.4",
+    "jade": "~0.35.0",
+    "readdirrsync": "0.0.3",
+    "less-middleware": "~0.1.14",
+    "stylus": "~0.40.3",
+    "colors": "~0.6.2",
+    "wrench": "~1.5.4"
+  }
+}

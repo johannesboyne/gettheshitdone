@@ -1,0 +1,16 @@
+include includes/mixins
+include includes/layout
+  a(href="https://github.com/you")
+    img(style="position: absolute; top: 0; right: 0; border: 0;", src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png", alt="Fork me on GitHub")
+  .top
+    +kacheln("get the", "shit", "done")
+  .lower
+    p Sometimes you just have to get something done!
+    p
+      code $ (sudo) npm i gettheshitdone -g
+    p
+      code $ gettheshitdone mycoolwebsite
+    p
+      a(href="/about").gettheshitdone about
+    a(href="http://nodejs.org")
+      img(src="/img/nodejs-black.png", height="90")
