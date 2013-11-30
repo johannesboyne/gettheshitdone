@@ -9,6 +9,10 @@
   "bin": {
     "gettheshitdone": "bin/cmd.js"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/johannesboyne/gettheshitdone.git"
+  },
   "author": "Johannes Boyne <johannes@boyne.de>",
   "license": "MIT",
   "dependencies": {
