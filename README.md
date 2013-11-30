@@ -5,12 +5,20 @@ A simple website creating tool, package, framework whatever.
 
 `gettheshitdone` is a very simple tool that helps you to tick off landing pages, small websites and all this kind of crap. It has a big brother, called middleman (ruby world) but because we all love Node.js I hacked it together.
 
+## Installation
+
+```shell
+(sudo) npm install -g gettheshitdone
+```
+
 ## How does it work?
 
 It is very simple. You just have to type:
 
 ```shell
-gettheshitdone websitename
+$ gettheshitdone websitename
+$ cd websitename
+$ npm install
 ```
 
 and it will auto generate the following structure:

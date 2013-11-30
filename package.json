@@ -1,6 +1,6 @@
 {
   "name": "gettheshitdone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple website creating tool, package, framework whatever.",
   "main": "index.js",
   "scripts": {
